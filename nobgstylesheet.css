@@ -1,20 +1,4 @@
-/**
-
-CSS Source Code
-
-Created By:
-    
-    Elijah Mariano
-
-Modified By:
-    
-    Elijah Mariano
-    Chuckie A. Española
-    
-
-**/
-
-/*##################################################################################### BASIC HTML #####################################################################################*/
+/*Stylesheet for pages that doesn't include background image */
 
 * {
     margin: 0;
@@ -26,18 +10,11 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('media/bg_home.jpg');
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
-    background-attachment: fixed;
-
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 
     z-index: -1;
 }
-
 .header {
     width: 100%;
     height: 10hv;

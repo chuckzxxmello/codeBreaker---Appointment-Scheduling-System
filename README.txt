@@ -1,3 +1,8 @@
+appointment-scheduling-system
+codebreaker
+
+**directoy details**
+
 1. Root Folder
 README.md: Documentation about your project.
 package.json: For Node.js projects, contains dependencies and scripts.
@@ -31,7 +36,9 @@ g. Assets
 8. Documentation
 /docs: Any additional documentation or API references.
 
-/my-clinic-scheduler
+**directory mapping**
+
+/appointment-scheduling-system
 │
 ├── README.md
 ├── package.json

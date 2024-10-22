@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- title -->    <title>Login</title>
+
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+
+<body>
+
+<!-- header -->
+    <div class="header">
+        <nav>
+            <h2>ELAD School of Potentials Therapy Center</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="https://www.facebook.com/ELADSchoolofPotentials">Facebook</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+ <!-- login -->
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit">Login</button>
+            <div class="loading" style="display: none;">Loading...</div>
+            
+        </form>
+        <p id="message" class="error"></p>
+    </div>
+
+<!-- footer -->
+    <div class="footer">
+        <h2 id="text">Contact us:</h2>
+        <h2 class="contact-info">Email Address: eladschoolofpotentials@yahoo.com</h2>
+        <h2 class="contact-info">Mobile Contact Number: +63 947 429 5648</h2>   
+        <div class="social-links">
+            <a href="https://www.facebook.com/ELADSchoolofPotentials" class="footer-style-button">Facebook</a>
+        <br><br>
+        </div>
+        <p>&copy; 2024 ELAD School of Potentials Therapy Center</p>
+    </div>
+
+
+
+<!-- jscript for login -->
+   <script src="../components/login.js"></script>
+
+</body>
+
+</html>
